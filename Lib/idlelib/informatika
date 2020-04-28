@@ -1,0 +1,14 @@
+1. Napiši algoritam koji će dužinu izraženu u metrima d prevesti u stope, jarde i
+milje (1km=3281 stopa; 1km=1093.6 jardi; 1km=0.6214 milje).
+metri = int(input("Unesi duzinu u metrima"))
+stope = metri * 3.281
+jardi = metri * 1.0936
+milje = metri * 0.0006214
+print(stope, jardi, milje)
+
+2. Napisati algoritam koji dati trocifreni broj x ispisuje u inverznom redosledu
+(npr. 123321, u programskom kodu nigde ne pišete konkretne brojeve već
+samo promenljive, program treba da radi tačno za bilo koji uneti trocifreni
+broj).
+
+
